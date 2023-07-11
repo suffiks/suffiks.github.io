@@ -1,0 +1,87 @@
+# Meta Data for SEO
+
+## Homepage
+description    = "Suffiks is an extendable Kubernetes operator for Applications and Jobs."
+title          = "Suffiks"
+titleSeparator = "-"
+
+## Documentation
+# docsVersion = "0.3"
+
+## Open Graph
+domainTLD = "suffiks.github.io"
+images    = [  ]
+ogLocale  = "en_US"
+titleHome = "Suffiks"
+
+
+## Sitelinks Search Box
+siteLinksSearchBox = false
+
+## Chrome Browser
+themeColor = "#fff"
+
+# Images
+bgColor              = "#fff"
+landscapePhotoWidths = [ 900, 800, 700, 600, 500 ]
+lqipWidth            = "20x"
+portraitPhotoWidths  = [ 800, 700, 600, 500 ]
+quality              = 85
+smallLimit           = "300"
+
+# Images
+imageAddClass   = "img-fluid lazyload blur-up"
+imageConvertTo  = "webp"
+imageImageSizes = [ "480", "720", "1080", "1280", "1600", "2048" ]
+imageResponsive = true
+singleSize      = false
+
+### Image template
+defaultImage = "default-image.png" # put in `./assets/images/`
+fillImage    = "1270x740 Center"   # normalize image size
+
+# Footer
+footer = "Powered by <a class=\"text-muted\" href=\"https://gohugo.io/\">Hugo</a>, and <a class=\"text-muted\" href=\"https://getdoks.org/\">Doks</a>"
+
+
+# Alert
+alert            = false
+alertDismissable = true
+# alertText = "Introducing the Doks child theme, several DX + UX updates, and more! <a class=\"alert-link stretched-link\" href=\"https://getdoks.org/blog/doks-v0.2/\" target=\"_blank\" rel=\"noopener\">Check out Doks v0.2</a>"
+
+# Edit Page
+# repoHost [Github | Gitea | GitLab | Bitbucket | BitbucketServer ] is used for building the edit link based on git hoster
+repoHost = "GitHub"
+#repoHost = "Gitea"
+docsRepo        = "https://github.com/h-enk/doks"
+docsRepoBranch  = "main"
+docsRepoSubPath = ""
+editPage        = true
+lastMod         = true
+
+[sections]
+  sectionNav = [ "docs" ]
+
+[options]
+  bootStrapJs         = true
+  breadCrumb          = false
+  clipBoard           = true
+  darkMode            = true
+  docsVersioning      = false
+  flexSearch          = true
+  fullWidth           = false
+  highLight           = true
+  instantPage         = true
+  kaTex               = false
+  lazySizes           = true
+  multilingualMode    = false
+  navbarSticky        = true
+  scrollSpy           = false # experimental; needs Bootstrap >= 5.2.0-beta1
+  searchSectionsIndex = [  ]
+  searchSectionsShow  = [  ]
+  toTopButton         = false
+
+[menu]
+[menu.section]
+  auto               = true
+  collapsibleSidebar = false
