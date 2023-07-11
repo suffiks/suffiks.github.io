@@ -53,7 +53,7 @@ alertDismissable = true
 # repoHost [Github | Gitea | GitLab | Bitbucket | BitbucketServer ] is used for building the edit link based on git hoster
 repoHost = "GitHub"
 #repoHost = "Gitea"
-docsRepo        = "https://github.com/h-enk/doks"
+docsRepo        = "https://github.com/suffiks/suffiks.github.io"
 docsRepoBranch  = "main"
 docsRepoSubPath = ""
 editPage        = true
